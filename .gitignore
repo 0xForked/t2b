@@ -1,0 +1,26 @@
+# never commit
+PPF.txt
+*.pem
+*.key
+wallet.enc
+config.json
+.env
+.env.*
+
+# t2b runtime data (lives in ~/.t2b normally, but guard in case it ends up local)
+.t2b/
+
+# Go build artifacts
+/t2b
+*.exe
+*.test
+*.out
+
+# Swift build artifacts
+swift/t2bfm/.build/
+swift/t2bfm/.swiftpm/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
